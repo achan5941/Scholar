@@ -113,7 +113,7 @@ header .header {
 }
 .drag-over {
   border-color: #68a047; /* Change border color to indicate drag over */
-  background-color: #f4f6f7; /* Optional: change background color */
+  background-color: #f4f6f7; /* Optional: change background color. */
 }
 #file-input {
   display: none;
@@ -133,5 +133,10 @@ header .header {
 }
 .remove-File {
   color: white;
-  cursor: pointer; /* Suggests it's clickable. */
+  cursor: pointer; /* Suggests it's clickable */
+}
+
+#logo{
+  width: 50px;
+  transform: scaleX(-1);
 }

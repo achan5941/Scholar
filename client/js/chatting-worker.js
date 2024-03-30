@@ -19,7 +19,7 @@ function add_message(text,role="user"){
 const createChatLi = (message, className) => {
   const chatLi = document.createElement("li");
   chatLi.classList.add("chat", className);
-  let chatContent = className === "user" ? `<p>${message}</p>` : `<span>SC</span><p>${message}</p>`;
+  let chatContent = className === "user" ? `<p>${message}</p>` : `<span><img src="../images/50Logo.png" id="logo"></span><p>${message}</p>`;
   chatLi.innerHTML = chatContent;
   return chatLi;
 }
